@@ -123,7 +123,7 @@ int main( int argc, const char *argv[] )
 	encPara.fpsNum = 30;
 	encPara.fpsDen = 1;
 	encPara.keyFrmInterval = 30;
-	encPara.bitrate = 1 * 1024 * 1024;	// 2MB
+	encPara.bitrate = 8 * 1024 * 1024;	// 8Mbps
 	encPara.maximumQp = 0;
 	encPara.rcVbvSize = 0;
 	encPara.disableSkip = 0;
